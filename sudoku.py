@@ -15,6 +15,7 @@ for i in range(len(sudoku)):
     if (i % 3 == 0):
         print("- " * 11)
         print(*sudoku[i][:3], "|", *sudoku[i][3:6], "|", *sudoku[i][6:])
+        
     else:
         print(*sudoku[i][:3], "|", *sudoku[i][3:6], "|", *sudoku[i][6:])
 print("- " * 11)
